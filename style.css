@@ -1,0 +1,69 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-color: black;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    width: 800px;
+    height: 450px; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copyright {
+    text-align:center;
+}
+.texto {
+    color:white;
+    text-align: justify;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-image: linear-gradient(to bottom, rgba(253, 253, 253), rgb(211, 211, 211));
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(255, 255, 255)
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 50px; /* Espacio externo abajo */
+    padding: 20px; /* Espacio interno en todos los lados */
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+    text-align:center;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
